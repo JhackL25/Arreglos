@@ -3,7 +3,6 @@
 
 # Ejemplos de arreglos
 import math as mt
-Lista_1 = [1,2,3] # Ejemplo de lista vacia
 Lista_2 = [1, -2, 3.5, mt.pi] # Ejemplo de lista con números reales y un valor irracional importado desde la libreria "math"
 
 def calcular_promedio (lista_a_promediar): 
@@ -23,8 +22,7 @@ def calcular_promedio (lista_a_promediar):
         cantidad_de_numeros = len (lista_a_promediar) # Se calcula la cantidad de elementos de la lista
         resultado = suma_reales / cantidad_de_numeros # Calculo del promedio de los 
         
-        return print (f"El promedio de su arreglo es de: {resultado}")
+        return resultado
 
-# Aplicación de la funcion calcular promedio para ambas listas
-calcular_promedio (Lista_1)
-calcular_promedio (Lista_2)
+
+print(calcular_promedio (Lista_2))
